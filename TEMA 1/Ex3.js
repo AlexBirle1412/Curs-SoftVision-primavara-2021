@@ -17,3 +17,8 @@ var newArray = firstArray.map((element) => {
   return element + 15 * element;
 });
 console.log(newArray);
+
+var editedArray = [...firstArray].map((element) => {
+  return element * 10 + element;
+});
+console.log(editedArray);
